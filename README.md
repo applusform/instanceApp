@@ -1,5 +1,5 @@
 # instantApp (인스턴트앱 기본 양식)
-MOML App 프로젝트를 GitHub에 올릴 때 사용하는 기본 양식
+MOML Instant App 프로젝트를 GitHub에 올릴 때 사용하는 기본 양식
 
 Screen shot :
 ![Screen shot](http://applusform.github.io/instantApp/screenshot1.png)
