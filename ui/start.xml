@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MOML version="1.1.8" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.applusform.com/xsd/moml_ui_1.1.8.xsd">
+	<THEMES>
+		<THEME id="title" fontSize="20" textAlign="center" textColor="white" textShadow="black" overlay1="gradation:tb|#f03080ff|#804070b0|#c0ffffff" enabled="false"/>
+		<THEME id="label" fontSize="14" textColor="royalBlue" textShadow="lightGray"/>
+		<THEME element="LABEL" parent="label"/>
+		<THEME id="button" parent="label" img="#60a0f0" pressedImg="#90acff" margin="10,15,10,0" />
+		<THEME element="BUTTON" parent="button" />
+		<THEME id="styleButton" parent="button" layout="130,30" shape="roundRect(10)" borderStyle="emboss" overlay1="gradation:tb|#a0ffffff|#00000000" />
+	</THEMES>
+
+	<UILAYOUT portrait="320,480" landscape="320,480">
+		<WINDOW id="bg" layout="0,0,320,480" img="/res/bg1.jpg" />
+		<STYLEBUTTON themeId="title" layout="0,0,320,40" text="MOML Application Title" />
+		<WINDOW layout="0,40,320,440" img="#60ffffff" align="linear:vertical" padding="10,10,10,0" scroll="vertical">
+			<STYLEBUTTON themeId="styleButton" text="Background 1" img="#f060a0" textColor="#e14169" onClick="bg.img = '/res/bg1.jpg'"/>
+			<STYLEBUTTON themeId="styleButton" text="Background 2" img="#60f0a0" textColor="#418041" onClick="bg.img = '/res/bg2.jpg'"/>
+			<STYLEBUTTON themeId="styleButton" text="Background 3" img="#60a0f0" textColor="#4169e1" onClick="bg.img = '/res/bg3.jpg'"/>
+			<WINDOW layout="300,60" align="relative" margin="0,10,0,10" onCreate="function.startBannerAni">
+				<LABEL id="banner1" text="Don't miss your last chance !!!" layout="-300,0,300,20" textAlign="center" textColor="#e14169"/>
+				<LABEL id="banner2" text="You can do everything !!!" layout="-300,20,300,20" textAlign="center" textColor="#418041"/>
+				<LABEL id="banner3" text="Just start now !!!" layout="-300,40,300,20" textAlign="center" textColor="#4169e1"/>
+			</WINDOW>
+		</WINDOW>
+	</UILAYOUT>
+
+	<FUNCTION id="startBannerAni">
+		<CMD cmd="animation.flyOut('banner1', 600, 0, banner1.width, banner1.height, 'easeOutIn3', 3000, '')"/>
+		<CMD cmd="animation.flyOut('banner2', 600, 0, banner2.width, banner2.height, 'easeOutIn3|elasticOutIn', 3000, '')" delay="3000"/>
+		<CMD cmd="animation.flyOut('banner3', 600, 0, banner3.width, banner3.height, 'backOutIn', 3000, '')" delay="6000"/>
+		<CMD cmd="function.startBannerAni" delay="10000" />
+	</FUNCTION>
+
+</MOML>
