@@ -13,9 +13,9 @@ Screen shot :
 
 #### AppGate 인스턴트앱 빌드( .apk)
 1. http://appgate.yooic.com 사이트 가입후 로그인합니다.
-2. **[프로젝트 생성]** 메뉴에서 앱타임으로 **인스턴트 앱**을 선택하고 **다음**을 누릅니다.
-3. **MOML 어플리케이션 URL**에 **applusform.github.io/instantApp**를 입력한 후 **완료**를 누릅니다.
-4. **[내 프로젝트 관리]** 메뉴에서 APK **생성** 버튼을 누릅니다.
+2. **[프로젝트 생성]** 메뉴에서 앱타임으로 **[인스턴트 앱]**을 선택하고 **[다음]**을 누릅니다.
+3. **[MOML 어플리케이션 URL]**에 **applusform.github.io/instantApp**를 입력한 후 **[완료]**를 누릅니다.
+4. **[내 프로젝트 관리]** 메뉴에서 APK **[생성]** 버튼을 누릅니다.
 
 #### 직접 빌드 ( .apk, .ipa )
 1. http://ApplusForm.com 사이트의 **[Get Agate]** 메뉴에서 **MOML API Demo Peoject** 를 다운로드 받습니다.
