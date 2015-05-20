@@ -7,7 +7,7 @@ Screen shot :
 #### APK 다운로드
 * [Release v1.1](https://github.com/applusform/instantApp/releases/download/v1.1/io.github.applusform.instantApp.apk)
 
-#### MOML Application Viewer 로 실행하는 방법
+#### MOML Application Viewer로 바로 실행
 1. MOML Application Viewer를 설치한 후 실행합니다. ( [Google Play Store](https://play.google.com/store/apps/details?id=org.mospi.momlappviewer), [Xcode Project](https://github.com/applusform/MOMLAppViewer_iOS), [Android Studio Project](https://github.com/applusform/MOMLAppViewer_Android_Studio) )
 2. 주소 입력창에 **applusform.instantApp.io/skel** 를 입력합니다.
 
