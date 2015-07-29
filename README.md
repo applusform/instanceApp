@@ -22,3 +22,9 @@ Screen shot :
 2. **moml** 폴더의 모든 파일들을 이 프로젝트의 파일로 교체합니다.
 3. 빌드하고 실행합니다.
 
+#### GitHub 프로젝트 페이지
+https://github.com/applusform/instantApp
+
+#### 소스 ZIP 파일
+https://github.com/applusform/instantApp/archive/gh-pages.zip
+
