@@ -9,6 +9,7 @@ Screen shot :
 
 #### MOML Application Viewer로 바로 실행
 1. MOML Application Viewer를 설치한 후 실행합니다. ( [Google Play Store](https://play.google.com/store/apps/details?id=org.mospi.momlappviewer), [Xcode Project](https://github.com/applusform/MOMLAppViewer_iOS), [Android Studio Project](https://github.com/applusform/MOMLAppViewer_Android_Studio) )
+직접 빌드하는 경우 http://applusform.com 에서 최신 라이브러리로 업데이트 하십시오.
 2. 주소 입력창에 **applusform.github.io/instantApp** 를 입력합니다.
 
 #### 온라인 앱 자동 빌드( .apk)
